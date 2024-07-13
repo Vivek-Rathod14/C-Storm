@@ -1,0 +1,138 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+  int a,b,c,d,e,f;
+  clrscr();
+  printf("Enter Your Namber A :");
+  scanf("%d",&a);
+  printf("Enter Your Namber B :");
+  scanf("%d",&b);
+  printf("Enter Your Namber C :");
+  scanf("%d",&c);
+  printf("Enter Your Namber D :");
+  scanf("%d",&d);
+  printf("Enter Your Namber E :");
+  scanf("%d",&e);
+  printf("Enter Your Namber F :");
+  scanf("%d",&f);
+
+  if(a>b)
+  { if(a>c)
+    { if(a>d)
+      { if(a>e)
+	{ if(a>f)
+	  { printf("%d is max",a);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ if(e>f)
+	  { printf("%d is max",e);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+      }
+      else
+      { if(d>e)
+	{ if(d>f)
+	  { printf("%d is max",d);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ printf("%d is max",e);
+	}
+      }
+    }
+    else
+    { if(c>d)
+      { if(c>e)
+	{ if(c>f)
+	  { printf("%d is max",c);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ printf("%d is max",e);
+	}
+      }
+      else
+      { printf("%d is max",d);
+      }
+    }
+
+  }
+  else
+  { if(b>c)
+    { if(b>d)
+      { if(b>e)
+	{ if(b>f)
+	  { printf("%d is max",b);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ if(e>f)
+	  { printf("%d is max",e);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+      }
+      else
+      { if(d>e)
+	{ if(d>f)
+	  { printf("%d is max",d);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ printf("%d is max",e);
+	}
+      }
+    }
+    else
+    { if(c>d)
+      { if(c>e)
+	{ if(c>f)
+	  { printf("%d is max",c);
+	  }
+	  else
+	  { printf("%d is max",f);
+	  }
+	}
+	else
+	{ printf("%d is max",e);
+	}
+      }
+      else
+      { printf("%d is max",d);
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+  getch();
+
+}

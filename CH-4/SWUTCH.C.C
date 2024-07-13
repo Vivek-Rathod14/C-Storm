@@ -63,12 +63,6 @@ if  (t>=91 && t<=100)
 			   break;
 
 		 }
-	    if(GRADE>='A' && GRADE<= 'B')
-	    {printf( " You are eligible for the next level");
-	    }
 
-	    else
-	    {printf("Please try again next time");
-	    }
 		getch();
 	      }
